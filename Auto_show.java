@@ -17,6 +17,7 @@ public class Auto_show {
         this.autoeng1 = eng1;
     }
 
+	Scanner in = new Scanner(System.in);
     void display()
     {
         System.out.println("Brand: " + autoBrand);
@@ -26,7 +27,7 @@ public class Auto_show {
         System.out.println("Year: " + autoYear);
         System.out.println(autoeng1.GetInfo());
     }
-    Scanner in = new Scanner(System.in);
+    
     void read(){
 
         System.out.println("Enter brand: ");
@@ -40,5 +41,9 @@ public class Auto_show {
         System.out.println("Year: ");
         this.autoYear = in.nextInt();
         autoeng1.Read();
+    }
+    add CostAndSpeed()
+    {
+        return new add(autoCost, autoMax_speed);
     }
 }

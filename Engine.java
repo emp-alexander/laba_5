@@ -6,7 +6,6 @@ public class Engine {
     Engine(){
 
     }
-
     Engine(int cylinders, int capacity, int power){
         this.cylinders = cylinders;
         this.capacity = capacity;

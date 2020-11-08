@@ -17,5 +17,9 @@ public class Main {
 
         first_auto[1].display();
 
+
+        System.out.println("Cost: " + first_auto[1].CostAndSpeed().add1());
+        System.out.println("Speed: " + first_auto[1].CostAndSpeed().add2());
     }
+
 }
