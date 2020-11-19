@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Auto_show {
+	private static int racing = 7;
     private String autoBrand;
     private String autoName;
     private int autoCost;
@@ -46,4 +47,15 @@ public class Auto_show {
     {
         return new add(autoCost, autoMax_speed);
     }
+	
+	static void Racingset(int r)
+    {
+        racing = r;
+    }
+
+    static int Racing()
+    {
+        return racing;
+    }
+
 }

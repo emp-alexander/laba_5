@@ -2,8 +2,8 @@
 
 public class Main {
     public static void main (String[] args) {
-		//Scanner in = new Scanner(System.in);
-		System.out.println("������ auto");
+		
+		System.out.println("First auto");
         Auto_show[] first_auto = new Auto_show[10];
         Engine autoeng = new Engine(4, 2, 100);
 
@@ -20,6 +20,9 @@ public class Main {
 
         System.out.println("Cost: " + first_auto[1].CostAndSpeed().add1());
         System.out.println("Speed: " + first_auto[1].CostAndSpeed().add2());
+		
+		Auto_show.Racingset(5);
+	    System.out.println("Acceleration to 100 " + Auto_show.Racing());
     }
 
 }
